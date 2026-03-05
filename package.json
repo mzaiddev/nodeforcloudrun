@@ -1,0 +1,14 @@
+{
+  "name": "nodeforcloudrun",
+  "version": "1.0.0",
+  "description": "Minimal Node.js app for deployment testing",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node init && node server.js",
+    "dev": "node init && node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
